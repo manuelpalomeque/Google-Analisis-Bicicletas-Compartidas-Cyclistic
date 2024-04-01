@@ -3,9 +3,10 @@
 # 2- Preparar Datos:
 
 # A) Instalar librerias:
- install.packages("tidyverse")
+install.packages("tidyverse")
 
- # B) Cargar librerias:
+# B) Cargar librerias:
+library(tidyverse)
 
 # C) Importar Csv:
 
