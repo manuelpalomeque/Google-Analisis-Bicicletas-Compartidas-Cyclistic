@@ -1,6 +1,6 @@
-# **Análisis de Bicicletas Compartidas Cyclistic** 🚲 (En Progreso)
+# **Google Data Analytics: Bicicletas Compartidas Cyclistic** 🚲 (En Progreso)
 
-Proyecto Final de Google- Analista de Datos
+Curso: [Análisis de datos de Google Analytics Capstone: Completar un caso de éxito](https://www.coursera.org/learn/google-data-analytics-capstone)
 
 
 
