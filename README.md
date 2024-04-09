@@ -2,11 +2,9 @@
 
 Curso: [Análisis de datos de Google Analytics Capstone: Completar un caso de éxito](https://www.coursera.org/learn/google-data-analytics-capstone)
 
-
-
 ## *Introdución:*
 En este caso de estudio, realizaré tareas del mundo real de un analista de datos junior en una empresa ficticia, Cyclistic. Para responder las preguntas claves, seguiré los pasos del proceso de análisis de datos: 
-1. Preguntar
+1. [Preguntar](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/edit/main/README.md#1--preguntar)
 2. Preparar
 3. Procesar
 4. Analizar
@@ -28,4 +26,8 @@ Hasta ahora, la estrategia de marketing de Cyclistic se basaba en la construcci�
 Los analistas financieros de Cyclistic llegaron a la conclusión de que los miembros anuales son mucho más rentables que los ciclistas ocasionales. Aunque la flexibilidad de precios ayuda a Cyclistic a atraer más clientes, Moreno cree que maximizar el número de miembros anuales será clave para el crecimiento futuro. En lugar de crear una campaña de marketing que apunte a todos los clientes nuevos, Moreno cree que hay muchas posibilidades de convertir a los ciclistas ocasionales en miembros. Ella señala que los ciclistas ocasionales ya conocen el programa de Cyclistic y han elegido a Cyclistic para sus necesidades de movilidad.
 Moreno estableció una meta clara: Diseñar estrategias de marketing orientadas a convertir a los ciclistas ocasionales en miembros anuales. Sin embargo, para hacer eso, el equipo de analistas de marketing necesita entender mejor cómo difieren los miembros anuales y los ciclistas ocasionales, por qué los ciclistas ocasionales comprarían una membresía y cómo los medios digitales podrían afectar sus tácticas de marketing. Moreno y su equipo están interesados en analizar los datos históricos de viajes en bicicleta de Cyclistic para identificar tendencias.
 
-
+## *1- Preguntar*
+### *Tarea Empresarial:*
+Como analista de datos, en el equipo de analistas de marketing de Cyclistic, mi tarea es comprender las diferencias en el uso de las bicicletas Cyclistic entre los ciclistas ocasionales y los miembros anuales. 
+Parto de la premisa de la directora de marketing, la licenciada Lily Moreno, quien  ha establecido la meta de maximizar el número de membresías anuales, ya que esto es crucial para el éxito futuro de la empresa. 
+Por lo tanto, mi objetivo es proporcionar una visión detallada de cómo difieren los socios anuales y los ciclistas ocasionales en términos de sus patrones de uso de bicicletas. Esta comprensión ayudará a que el equipo ejecutivo de Cyclistic, tome decisiones informadas  y apruebe una nueva estrategia de marketing que convierta a los ciclistas ocasionales en miembros anuales.
