@@ -43,6 +43,8 @@ Los datos se encuentran originalmente comprimidos en archivos .zip. Luego de des
 
 Los datos están organizados y representados en forma de datos largos (Long Data). No hay problema de sesgo de muestreo, ya que los datos son completos e incluyen a toda la población de usuarios de bicicletas, ya sean usuarios casuales o con membresías. Se  implementa una visualización  para identificar si hay sesgo visual, pero no se identifican valores favorecedores para ninguna de las sesiones.
 
+![Id25](https://raw.githubusercontent.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/main/preparar.png)
+
 Respecto a la confiabilidad de los datos, los mismos son originales de la propia empresa (originales y confiables), esos datos son integrales, actuales y citados, por ello cumplen con el criterio ROCC.
 
 
