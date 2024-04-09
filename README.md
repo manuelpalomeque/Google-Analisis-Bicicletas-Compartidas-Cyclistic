@@ -31,3 +31,18 @@ Moreno estableció una meta clara: Diseñar estrategias de marketing orientadas 
 Como analista de datos, en el equipo de analistas de marketing de Cyclistic, mi tarea es comprender las diferencias en el uso de las bicicletas Cyclistic entre los ciclistas ocasionales y los miembros anuales. 
 Parto de la premisa de la directora de marketing, la licenciada Lily Moreno, quien  ha establecido la meta de maximizar el número de membresías anuales, ya que esto es crucial para el éxito futuro de la empresa. 
 Por lo tanto, mi objetivo es proporcionar una visión detallada de cómo difieren los socios anuales y los ciclistas ocasionales en términos de sus patrones de uso de bicicletas. Esta comprensión ayudará a que el equipo ejecutivo de Cyclistic, tome decisiones informadas  y apruebe una nueva estrategia de marketing que convierta a los ciclistas ocasionales en miembros anuales.
+
+## *2- Preparar*
+### *Fuentes de Datos Utilizadas:* 
+Usaré los datos históricos de los viajes registrados de Cyclistic para analizar e identificar las tendencias de los últimos 12 meses, y con estos,  puedo responder las preguntas de la empresa. Estos datos se originan en línea, en base a los registros (logs) de los viajeros. 
+Estos son datos de internos y de primera fuente (First-Party data), ya que provienen de la misma empresa que proporciona los datos (dentro del contexto del caso práctico, donde pertenezco al equipo de analistas de datos de la empresa), los mismos son públicos y permiten explorar cómo difieren los tipos de clientes que usan las bicicletas de Cyclistic.  Para el proceso de preparación de los datos, extraje los últimos 12 meses disponibles, desde el siguiente enlace [Divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)  (Los conjuntos de datos tienen un nombre diferente porque Cyclistic es una empresa ficticia). 
+
+Los datos se encuentran originalmente comprimidos en archivos .zip. Luego de descomprimirlos, verificamos que los mismos tienen un formato .csv, y se registra un archivo por mes. En estos archivos, los Datos están estructurados, en filas y columnas, compuestas por datos del tipo numérico y texto. En estas columnas encontramos diferentes formatos de datos. A continuación se agrupan las columnas según el tipo de formato de dato:
+* Cualitativos:  ride_id, rideable_type, start_statios_name, start_station_id, end_station_name, end_tation_id, member_casual.
+* Cuantitativos Continuos: started_at, ended_at, start_lat, start_Ing, end_lat, end_ing
+
+Los datos están organizados y representados en forma de datos largos (Long Data). No hay problema de sesgo de muestreo, ya que los datos son completos e incluyen a toda la población de usuarios de bicicletas, ya sean usuarios casuales o con membresías. Se  implementa una visualización  para identificar si hay sesgo visual, pero no se identifican valores favorecedores para ninguna de las sesiones.
+
+Respecto a la confiabilidad de los datos, los mismos son originales de la propia empresa (originales y confiables), esos datos son integrales, actuales y citados, por ello cumplen con el criterio ROCC.
+
+
