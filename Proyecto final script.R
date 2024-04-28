@@ -23,8 +23,15 @@ diciembre_2023 <- read_csv("D:/GitHub/An-lisis-Bicicletas-Compartidas-Cyclistic/
 enero_2024 <- read_csv("D:/GitHub/An-lisis-Bicicletas-Compartidas-Cyclistic/DataSet/202401-divvy-tripdata.csv")
 febrero_2024 <- read_csv("D:/GitHub/An-lisis-Bicicletas-Compartidas-Cyclistic/DataSet/202402-divvy-tripdata.csv")
 
+# Previsualizar los datos
 View(febrero_2023)
 
-# D) Ordenar por fecha
+# D) Unificar tablas:
+tabla_general <- rbind(febrero_2023, marzo_2023, abril_2023, mayo_2023, junio_2023,
+                       julio_2023, agosto_2023, septiembre_2023, octubre_2023,
+                       noviembre_2023, diciembre_2023, enero_2024, febrero_2024)
 
+# Previsualizar los datos
+View(tabla_general)
 
+# ) Ordenar por fecha
