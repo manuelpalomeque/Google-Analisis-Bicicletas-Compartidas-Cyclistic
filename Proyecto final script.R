@@ -60,7 +60,21 @@ str(tabla_general)
 # Podemos verificar que el mismo tiene un total de 58.97.613 registros
 
 
+# F) Seleccionar las columnas que me son utiles:
+tabla_general_1 <- select(tabla_general, rideable_type, started_at, ended_at, 
+                          start_station_name, end_station_name, start_lat, 
+                          start_lng, end_lat, end_lng, member_casual)
 
-# ) Filtrar datos
+# Previsualizar el dataframe:
+View(tabla_general_1)
 
-# ) Ordenar por fecha
+# G) Renombrar columnas
+
+# H) Ordenar por fecha
+
+
+# 3- Procesar Datos: -------------------------------------------------------------
+
+# filtrar datos
+
+#limpiar datos
