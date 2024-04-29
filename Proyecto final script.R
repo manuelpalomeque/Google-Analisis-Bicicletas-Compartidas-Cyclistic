@@ -26,12 +26,28 @@ febrero_2024 <- read_csv("D:/GitHub/An-lisis-Bicicletas-Compartidas-Cyclistic/Da
 # Previsualizar los datos
 View(febrero_2023)
 
-# D) Unificar tablas:
+# D) Unificar tablas en un DataFrame:
 tabla_general <- rbind(febrero_2023, marzo_2023, abril_2023, mayo_2023, junio_2023,
                        julio_2023, agosto_2023, septiembre_2023, octubre_2023,
                        noviembre_2023, diciembre_2023, enero_2024, febrero_2024)
 
-# Previsualizar los datos
+# E) Previsualizar los datos:
+
 View(tabla_general)
+
+# Previsualizacion de los primeros  6 registros:
+head(tabla_general)
+
+# Previsualizacion de los nombres de las columnas.
+colnames(tabla_general)
+#verificamos que hay un total de 13 columnas diferentes
+
+# Informacion sobre la estructura del data frame:
+str(tabla_general)
+# Podemos verificar que el mismo tiene un total de 58.97.613 registros
+
+
+
+# ) Filtrar datos
 
 # ) Ordenar por fecha
