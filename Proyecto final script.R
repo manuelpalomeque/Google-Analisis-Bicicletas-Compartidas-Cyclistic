@@ -66,9 +66,24 @@ tabla_general_1 <- select(tabla_general, rideable_type, started_at, ended_at,
                           start_lng, end_lat, end_lng, member_casual)
 
 # Previsualizar el dataframe:
-View(tabla_general_1)
+View(tabla_general_1) 
 
 # G) Renombrar columnas
+tabla_general_2 <- rename(tabla_general_1,
+                          tipo_bicicleta = rideable_type, 
+                          fecha_hora_inicio = started_at, 
+                          fecha_hora_fin = ended_at, 
+                          estacion_inicio = start_station_name, 
+                          estacion_fin = end_station_name, 
+                          latitud_inicio = start_lat, 
+                          longitud_inicio = start_lng, 
+                          latitud_fin = end_lat, 
+                          longitud_fin = end_lng, 
+                          tipo_cliente= member_casual
+                          )
+
+# Previsualizar el dataframe:
+View(tabla_general_2)
 
 # H) Ordenar por fecha
 
@@ -77,4 +92,4 @@ View(tabla_general_1)
 
 # filtrar datos
 
-#limpiar datos
+# limpiar datos
