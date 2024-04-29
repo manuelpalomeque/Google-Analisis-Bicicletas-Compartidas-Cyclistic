@@ -1,12 +1,25 @@
 # Autor: Palomeque Jonathan
 
-# 2- Preparar Datos:
+# 2- Preparar Datos: -------------------------------------------------------------
 
 # A) Instalar librerias:
 install.packages("tidyverse")
 
+# librerias para limpieza de datos:
+install.packages("here")
+install.packages("skimr")
+install.packages("janitor")
+install.packages("dplyr")
+
 # B) Cargar librerias:
 library(tidyverse)
+
+# librerias para limpieza de datos:
+library(here)
+library(skimr)
+library(janitor)
+library(dplyr)
+
 
 # C) Importar Archivos Csv:
 febrero_2023 <- read_csv("D:/GitHub/An-lisis-Bicicletas-Compartidas-Cyclistic/DataSet/202302-divvy-tripdata.csv")
