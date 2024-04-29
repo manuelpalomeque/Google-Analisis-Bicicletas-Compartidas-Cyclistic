@@ -45,7 +45,6 @@ tabla_general <- rbind(febrero_2023, marzo_2023, abril_2023, mayo_2023, junio_20
                        noviembre_2023, diciembre_2023, enero_2024, febrero_2024)
 
 # E) Previsualizar los datos:
-
 View(tabla_general)
 
 # Previsualizacion de los primeros  6 registros:
@@ -61,15 +60,15 @@ str(tabla_general)
 
 
 # F) Seleccionar las columnas que me son utiles:
-tabla_general_1 <- select(tabla_general, rideable_type, started_at, ended_at, 
+tabla_general_selec <- select(tabla_general, rideable_type, started_at, ended_at, 
                           start_station_name, end_station_name, start_lat, 
                           start_lng, end_lat, end_lng, member_casual)
 
 # Previsualizar el dataframe:
-View(tabla_general_1) 
+View(tabla_general_selec) 
 
 # G) Renombrar columnas
-tabla_general_2 <- rename(tabla_general_1,
+tabla_general_esp <- rename(tabla_general_selec,
                           tipo_bicicleta = rideable_type, 
                           fecha_hora_inicio = started_at, 
                           fecha_hora_fin = ended_at, 
@@ -83,9 +82,13 @@ tabla_general_2 <- rename(tabla_general_1,
                           )
 
 # Previsualizar el dataframe:
-View(tabla_general_2)
+View(tabla_general_esp)
 
 # H) Ordenar por fecha
+tabla_general_ord <- arrange(tabla_general_esp,fecha_hora_inicio )
+
+# Previsualizar el dataframe:
+View(tabla_general_ord)
 
 
 # 3- Procesar Datos: -------------------------------------------------------------
@@ -93,3 +96,5 @@ View(tabla_general_2)
 # filtrar datos
 
 # limpiar datos
+
+# reemplazar valores a español
