@@ -122,5 +122,13 @@ str(tabla_general_6)
 # vemos que el data set, se redujo a un total de 2.090.794 registros
 
 # B) Limpieza  de datos:
+# - Eliminar las filas vacias:
+tabla_general_7 <- remove_empty(tabla_general_6, "rows")
 
-# - Eliminar las filas vacias o que contengan NA:
+# - Eliminar las que contengan NAs:
+tabla_general_8 <- drop_na(tabla_general_7)
+
+# previsualizacion de datos
+str(tabla_general_8)
+
+# quedan un total de 1.558.087 registros para el analisis
