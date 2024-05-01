@@ -49,4 +49,4 @@ Respecto a la confiabilidad de los datos, los mismos son originales de la propia
 
 ### *Desarrollo en R:*
 * [Ver Notebook de Jupyter - 02 - Preparar Datos](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/blob/main/02%20-%20Preparar%20Datos-%20Notebook.ipynb)
-* [Ver Script en R](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/blob/main/02%20-%20Preparar%20Datos-%20Notebook.ipynb)
+* [Ver Script en R](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/blob/main/02%20-%20Preparar%20Datos.R)
