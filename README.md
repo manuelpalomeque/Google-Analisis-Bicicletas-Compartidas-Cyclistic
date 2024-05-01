@@ -47,4 +47,6 @@ Los datos están organizados y representados en forma de datos largos (Long Data
 
 Respecto a la confiabilidad de los datos, los mismos son originales de la propia empresa (originales y confiables), esos datos son integrales, actuales y citados, por ello cumplen con el criterio ROCC.
 
-
+### *Desarrollo en R:*
+* [Ver Notebook de Jupyter - 02 - Preparar Datos](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/blob/main/02%20-%20Preparar%20Datos-%20Notebook.ipynb)
+* [Ver Script en R](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/blob/main/02%20-%20Preparar%20Datos-%20Notebook.ipynb)
