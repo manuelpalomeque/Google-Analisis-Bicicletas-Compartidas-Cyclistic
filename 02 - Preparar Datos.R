@@ -89,7 +89,16 @@ tabla_general_4 <- arrange(tabla_general_3,fecha_hora_inicio )
 # Previsualizar el dataframe:
 View(tabla_general_4)
 
-# I) remplazar los valores:
+# I) verificar  las clasificaciones de los tipos de biciletas y de clientes
+
+unique(tabla_general_4$tipo_bicicleta)
+#  los registros indican que hay tres tipos de biciletas:"electric_bike",
+# "classic_bike" y  "docked_bike"
+
+unique(tabla_general_4$tipo_cliente)
+#  los registros indican que hay dos tipos de clientes: "member" y "casual"
+
+# J) remplazar los valores:
 # reemplace los valores al español de las columnas  tipo_bicicleta y tipo_cliente
 tabla_general_5 <- tabla_general_4 %>%
   mutate(tipo_bicicleta = if_else(tipo_bicicleta == "classic_bike", "bicicleta clásica", tipo_bicicleta)) %>%
