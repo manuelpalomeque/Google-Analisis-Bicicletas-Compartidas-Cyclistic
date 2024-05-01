@@ -40,35 +40,35 @@ febrero_2024 <- read_csv("D:/GitHub/An-lisis-Bicicletas-Compartidas-Cyclistic/Da
 View(febrero_2023)
 
 # D) Unificar tablas en un DataFrame:
-tabla_general <- rbind(febrero_2023, marzo_2023, abril_2023, mayo_2023, junio_2023,
+tabla_general_1 <- rbind(febrero_2023, marzo_2023, abril_2023, mayo_2023, junio_2023,
                        julio_2023, agosto_2023, septiembre_2023, octubre_2023,
                        noviembre_2023, diciembre_2023, enero_2024, febrero_2024)
 
 # E) Previsualizar los datos:
-View(tabla_general)
+View(tabla_general_1)
 
 # Previsualizacion de los primeros  6 registros:
-head(tabla_general)
+head(tabla_general_1)
 
 # Previsualizacion de los nombres de las columnas.
-colnames(tabla_general)
+colnames(tabla_general_1)
 #verificamos que hay un total de 13 columnas diferentes
 
 # Informacion sobre la estructura del data frame:
-str(tabla_general)
+str(tabla_general_1)
 # Podemos verificar que el mismo tiene un total de 58.97.613 registros
 
 
 # F) Seleccionar las columnas que me son utiles:
-tabla_general_selec <- select(tabla_general, rideable_type, started_at, ended_at, 
+tabla_general_2 <- select(tabla_general_1, rideable_type, started_at, ended_at, 
                           start_station_name, end_station_name, start_lat, 
                           start_lng, end_lat, end_lng, member_casual)
 
 # Previsualizar el dataframe:
-View(tabla_general_selec) 
+View(tabla_general_2) 
 
 # G) Renombrar columnas
-tabla_general_esp <- rename(tabla_general_selec,
+tabla_general_3 <- rename(tabla_general_2,
                           tipo_bicicleta = rideable_type, 
                           fecha_hora_inicio = started_at, 
                           fecha_hora_fin = ended_at, 
@@ -82,13 +82,23 @@ tabla_general_esp <- rename(tabla_general_selec,
                           )
 
 # Previsualizar el dataframe:
-View(tabla_general_esp)
+View(tabla_general_3)
 
 # H) Ordenar por fecha
-tabla_general_ord <- arrange(tabla_general_esp,fecha_hora_inicio )
+tabla_general_4 <- arrange(tabla_general_3,fecha_hora_inicio )
 
 # Previsualizar el dataframe:
-View(tabla_general_ord)
+View(tabla_general_4)
+
+# I) remplazar los valores:
+# reemplace los valores al español de las columnas  tipo_bicicleta y tipo_cliente
+tabla_general_5 <- tabla_general_4 %>%
+    mutate(tipo_bicicleta = if_else(tipo_bicicleta == "classic_bike", "bicicleta clásica", tipo_bicicleta)) %>%
+        mutate(tipo_bicicleta = if_else(tipo_bicicleta == "electric_bike", "bicicleta eléctrica", tipo_bicicleta)) %>%
+          mutate(tipo_bicicleta = if_else(tipo_bicicleta == "docked_bike", "bicicleta docked", tipo_bicicleta))  %>%
+            mutate(tipo_cliente = ifelse(tipo_cliente == "member", "miembro", tipo_cliente))
+
+View(tabla_general_5)
 
 
 # 3- Procesar Datos: -------------------------------------------------------------
