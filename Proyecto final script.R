@@ -114,10 +114,13 @@ View(tabla_general_5)
 # A) Filtrar datos:
 # Como el analisis busca centrarse en los miembros casuales, filtrare los registros,
 # segun el tipo de cliente (tipo_cliente)
+tabla_general_6 <- filter(tabla_general_5,tabla_general_5$tipo_cliente == 'casual')
+
+#previsualizar los datos del dataset resultante:
+str(tabla_general_6)
+
+# vemos que el data set, se redujo a un total de 2.090.794 registros
 
 # B) Limpieza  de datos:
 
 # - Eliminar las filas vacias o que contengan NA:
-
-
-# reemplazar valores a español
