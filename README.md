@@ -48,7 +48,7 @@ Los datos están organizados y representados en forma de datos largos (Long Data
 Respecto a la confiabilidad de los datos, los mismos son originales de la propia empresa (originales y confiables), esos datos son integrales, actuales y citados, por ello cumplen con el criterio ROCC.
 
 ### *Desarrollo en R:*
-* [Ver Notebook de Jupyter - 02 - Preparar Datos](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/blob/main/02%20-%20Preparar%20Datos-%20Notebook.ipynb)
+* [Ver Notebook de Jupyter](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/blob/main/bicicletas-compartidas-cyclist-google.ipynb)
 * [Ver Script en R](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/blob/main/02%20-%20Preparar%20Datos.R)
 
 
@@ -67,4 +67,5 @@ Limpiar los datos es una parte fundamental del análisis de datos para asegurar 
 * *Filtrar Datos:* Como necesito analizar los datos de los usuarios casuales, no necesito los datos de aquellos usuarios que ya son miembros.
 
 
-### *Proceso de limpieza de datos en R:* 
+### *Desarrollo en R:*
+* [Ver Notebook de Jupyter](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/blob/main/bicicletas-compartidas-cyclist-google.ipynb)
