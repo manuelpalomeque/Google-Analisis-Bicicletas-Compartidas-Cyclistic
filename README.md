@@ -53,6 +53,18 @@ Respecto a la confiabilidad de los datos, los mismos son originales de la propia
 
 
 ## *3- Procesar*
-### *Limpiza y manipulación de los datos:* 
-Para procesar los datos utilizare el lenguaje de programación R, ya que permite la **manipulacion de grandes volumenes de datos** (como son los datos historicos de los ultimos 12 meses de la empresa), lo cual no me permitió hacer en Excel ni Google Sheets, debido a la cantidad de registros resultantes.
+### *Herramienta de análisis:* 
+Para procesar los datos utilizare el lenguaje de programación *R*, ya que permite la **manipulacion de grandes volumenes de datos** (como son los datos historicos de los ultimos 12 meses de la empresa), lo cual no me permitió hacer en Excel ni Google Sheets, debido a la cantidad de registros resultantes.
 Además, me permite ir creando una **documentacion detallad**a mediente el uso de notebooks, lo que me permite  escribir el código en scripts que pueden ser ejecutados nuevamente para replicar los resultados. Esto es importante para el análisis de datos en entornos donde se necesita transparencia y replicabilidad. 
+
+### *Limpiza y manipulación de los datos:* 
+Limpiar los datos es una parte fundamental del análisis de datos para asegurar que los resultados sean precisos y confiables. Para lo cual, realicé los siguientes paso:
+* *Exploración Inicial:* identifiqué los tipos de datos  y su significancia, junto con una exploración de los registros. Eliminé columnas que no son de utilidad para mi análisis.
+* *Normalización de los datos:* organice y unifiqué los diferentes conjuntos de datos en un solo dataframe, para consolidar y unificar los datos.
+* *Eliminación de Duplicados:* Busqué y eliminé cualquier fila duplicada, ya que pueden afectar la precisión de los resultados.
+* *Estandarización de Formatos:* Renombre las columnas al español, al igual que los registros de los tipos de bicicletas y tipos de clientes, para que estos datos queden en el formato correcto para el análisis.
+* *Limpieza de Datos Erróneos o faltantes:* identifiqué registros con valores faltantes o nulos y aquellos con descripción "NA", para luego eliminar dichos registros.
+* *Filtrar Datos:* Como necesito analizar los datos de los usuarios casuales, no necesito los datos de aquellos usuarios que ya son miembros.
+
+
+### *Proceso de limpieza de datos en R:* 
