@@ -16,7 +16,11 @@ Identificaré tendencias, en base a los datos históricos de viajes en bicicleta
 ### *Fuente de datos:*
 Se trabaja con datos públicos: [Divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
-### *Escenario*
+### *Notebook de Jupyter completa con el análisis de los datos:*
+Utilice el lenguaje de programación *R*, para desarrollar el proceso de análisis de los datos. Implemente uns Notebook de Jupyter para facilitar la visualización tanto del código como los Outputs de cada script.
+* [Ver Notebook de Jupyter](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/blob/main/bicicletas-compartidas-cyclist-google.ipynb)
+
+## *Escenario*
 Soy un analista de datos júnior que trabaja en el equipo de analistas de marketing de Cyclistic, una empresa de bicicletas compartidas de Chicago. La directora de marketing cree que el éxito futuro de la empresa depende de maximizar la cantidad de membresías anuales. Por lo tanto, mi equipo quiere entender qué diferencias existen en el uso de las bicicletas Cyclistic entre los ciclistas ocasionales y los miembros anuales. 
 A través de estos conocimientos, mi equipo diseñará una nueva estrategia de marketing para convertir a los ciclistas ocasionales en miembros anuales. Sin embargo, antes de eso, los ejecutivos de Cyclistic deben aprobar nuestras recomendaciones; por eso, deben respaldar mi propuesta con una visión convincente de los datos y visualizaciones profesionales de los mismos.
 
