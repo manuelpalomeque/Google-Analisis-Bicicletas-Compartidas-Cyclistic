@@ -6,7 +6,7 @@ Curso: [Análisis de datos de Google Analytics Capstone: Completar un caso de é
 En este caso de estudio, realizaré tareas del mundo real de un analista de datos junior en una empresa ficticia, Cyclistic. Para responder las preguntas claves, seguiré los pasos del proceso de análisis de datos: 
 1. [Preguntar](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/tree/main?tab=readme-ov-file#1--preguntar)
 2. [Preparar](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/tree/main#2--preparar)
-3. Procesar
+3. [Procesar](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/blob/main/README.md#3--procesar)
 4. Analizar
 5. Compartir
 6. Actuar.
