@@ -50,3 +50,9 @@ Respecto a la confiabilidad de los datos, los mismos son originales de la propia
 ### *Desarrollo en R:*
 * [Ver Notebook de Jupyter - 02 - Preparar Datos](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/blob/main/02%20-%20Preparar%20Datos-%20Notebook.ipynb)
 * [Ver Script en R](https://github.com/manuelpalomeque/An-lisis-Bicicletas-Compartidas-Cyclistic/blob/main/02%20-%20Preparar%20Datos.R)
+
+
+## *3- Procesar*
+### *Limpiza y manipulación de los datos:* 
+Para procesar los datos utilizare el lenguaje de programación R, ya que permite la **manipulacion de grandes volumenes de datos** (como son los datos historicos de los ultimos 12 meses de la empresa), lo cual no me permitió hacer en Excel ni Google Sheets, debido a la cantidad de registros resultantes.
+Además, me permite ir creando una **documentacion detallad**a mediente el uso de notebooks, lo que me permite  escribir el código en scripts que pueden ser ejecutados nuevamente para replicar los resultados. Esto es importante para el análisis de datos en entornos donde se necesita transparencia y replicabilidad. 
