@@ -32,7 +32,7 @@ Moreno estableció una meta clara: Diseñar estrategias de marketing orientadas 
 
 ## *1- Preguntar*
 ### *Tarea Empresarial:*
-Como analista de datos, en el equipo de analistas de marketing de Cyclistic, mi tarea es comprender las diferencias en el uso de las bicicletas Cyclistic entre los ciclistas ocasionales y los miembros anuales. 
+Como analista de datos, en el equipo de analistas de marketing de Cyclistic, mi tarea es comprender las diferencias en el uso de las bicicletas Cyclistic entre los ciclistas ocasionales y los miembros anuales, ya que representan una fuente de ingresos estable y rentable en comparación con los ciclistas ocasionales. 
 Parto de la premisa de la directora de marketing, la licenciada Lily Moreno, quien  ha establecido la meta de maximizar el número de membresías anuales, ya que esto es crucial para el éxito futuro de la empresa. 
 Por lo tanto, mi objetivo es proporcionar una visión detallada de cómo difieren los socios anuales y los ciclistas ocasionales en términos de sus patrones de uso de bicicletas. Esta comprensión ayudará a que el equipo ejecutivo de Cyclistic, tome decisiones informadas  y apruebe una nueva estrategia de marketing que convierta a los ciclistas ocasionales en miembros anuales.
 
